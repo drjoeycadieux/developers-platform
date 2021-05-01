@@ -5,8 +5,11 @@
     >
       <div class="w-1/2">
         <p class="text-sm text-white">
-          Copyright &copy; {{ getYear() }} Developer Platform, LLC. All rights
-          reserved.
+          Copyright &copy; {{ getYear() }} Powered By
+          <a class="text-white font-bold" href="severestormsmedia.com"
+            >SevereStormsMedia</a
+          >
+          Severe Weather Chaser, LLC. All rights reserved.
         </p>
       </div>
       <div class="w-1/2"></div>
