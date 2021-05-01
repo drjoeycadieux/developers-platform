@@ -1,9 +1,13 @@
 <template>
   <header class="bg-gray-800 text-white p-10 mb-0">
     <div class="text-center text-1xl md:text-5xl font-bold mb-3">
-      <i class="fas fa-viruses"></i> <ButtonDashboard />
+      <i class="fas fa-laptop-code"></i> <ButtonDashboard />
       Developers Platform
     </div>
+    <h3 class="text-center text-4xl font-bold text-white">
+      Tap into what's happening.
+    </h3>
+    <br />
     <h3 class="text-center text-xs text-white">
       Source:
       <a
