@@ -15,6 +15,8 @@ import Router from "vue-router";
 import Home from "../views/Home";
 import Dashboard from "../views/admin/Dashboard";
 import Network from "../views/admin/Network";
+import About from "../views/About";
+import Announcements from "../views/media/tools/Announcements";
 
 /**
  * 3)
@@ -41,6 +43,14 @@ const OurRoutes = [
   {
     path: "/network",
     component: Network
+  },
+  {
+    path: "/about",
+    component: About
+  },
+  {
+    path: "/announcements",
+    component: Announcements
   }
 ];
 
