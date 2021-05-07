@@ -13,9 +13,11 @@ import Router from "vue-router";
  * That we want to use as pages.
  */
 import Home from "../views/Home";
+import About from "../views/About";
+import Contact from "../views/Contact";
+import FeedBack from "../views/FeedBack";
 import Dashboard from "../views/admin/Dashboard";
 import Network from "../views/admin/Network";
-import About from "../views/About";
 import Announcements from "../views/media/tools/Announcements";
 
 /**
@@ -51,6 +53,14 @@ const OurRoutes = [
   {
     path: "/announcements",
     component: Announcements
+  },
+  {
+    path: "/contact",
+    component: Contact
+  },
+  {
+    path: "/feedback",
+    component: FeedBack
   }
 ];
 
